@@ -7,5 +7,9 @@
     "16": "images/robot-128.png",
     "48": "images/robot-128.png",
     "128": "images/robot-128.png"
+  },
+  "background":{
+    "service_worker": "service-worker.js",
+    "type": "module"
   }
 }

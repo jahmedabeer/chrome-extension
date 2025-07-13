@@ -45,3 +45,13 @@ First, create a `manifest.json` file in this directory. Then, follow the steps b
 3.  **Declare the icons in `manifest.json`**. You need to tell Chrome where to find your icons by adding an `icons` object to your manifest file.
 4. For more details, refer to the [official Chrome extension icon documentation](https://developer.chrome.com/docs/extensions/reference/manifest/icons).
 
+### Using a Background Script (Service Worker)
+
+- A background script (or service worker) is the extension's central event handler. It runs in the background to listen for browser events, such as the extension being installed or the user clicking the toolbar icon. It's essential for managing the extension's state and coordinating different parts of your extension. It also acts as a message hub between your content scripts (which run on web pages) and your UI elements (like popups or the side panel).
+
+- To add a background script:
+
+1.  **Create a JavaScript file** (e.g., `service-worker.js`) in your project directory.
+2.  **Define the service worker in `manifest.json`** by adding the `background` key:
+3. For more information, see the [official documentation on background scripts](https://developer.chrome.com/docs/extensions/reference/manifest/background).
+
