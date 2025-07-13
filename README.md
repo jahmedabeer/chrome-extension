@@ -19,13 +19,15 @@ With a good grasp of these, you can create very powerful and useful extensions!
 
 ## Further Reading
 
-For more in-depth information, here are some official resources from Google:
+For more in-depth information, here are some official resources from Google & MDN:
 
 *   **[Getting Started Tutorial](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world)**
 *   **[Manifest File](https://developer.chrome.com/docs/extensions/reference/manifest)**
 *   **[Background Scripts (Service Workers)](https://developer.chrome.com/docs/extensions/develop/concepts/service-workers)**
 *   **[Content Scripts](https://developer.chrome.com/docs/extensions/develop/concepts/content-scripts)**
 *   **[Popup (Action API)](https://developer.chrome.com/docs/extensions/reference/api/action)**
+*   **[Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)**
+
 
 ## Setup
 
