@@ -37,3 +37,11 @@ First, create a `manifest.json` file in this directory. Then, follow the steps b
 2. Enable "Developer mode" using the toggle switch in the top-right corner.
 3. Click the "Load unpacked" button that appears.
 4. In the file selection dialog, navigate to and select your project directory (`P:\projects\chrome-extension`).
+
+### Adding Extension Icons
+
+1.  **Create an `images` folder** in your project directory to keep your icons organized.
+2.  **Add your icon files** to the `images` folder. It's best practice to provide icons in multiple sizes (e.g., 16x16, 48x48, 128x128).
+3.  **Declare the icons in `manifest.json`**. You need to tell Chrome where to find your icons by adding an `icons` object to your manifest file.
+4. For more details, refer to the [official Chrome extension icon documentation](https://developer.chrome.com/docs/extensions/reference/manifest/icons).
+

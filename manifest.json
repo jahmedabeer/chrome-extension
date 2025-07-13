@@ -2,5 +2,10 @@
   "manifest_version": 3,
   "name": "My Chrome Extension",
   "version": "1.0",
-  "description": "A basic Chrome extension."
+  "description": "A basic Chrome extension.",
+  "icons": {
+    "16": "images/robot-128.png",
+    "48": "images/robot-128.png",
+    "128": "images/robot-128.png"
+  }
 }
